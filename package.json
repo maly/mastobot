@@ -1,0 +1,17 @@
+{
+  "name": "robotai",
+  "version": "1.0.0",
+  "description": "bad\r 398d6df7a0c9273b3667862c15cf68d4",
+  "main": "config.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "openai": "^3.3.0"
+  }
+}

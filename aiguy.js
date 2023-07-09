@@ -9,7 +9,7 @@ const openai = new OpenAIApi(configuration);
 
 export const reply = async (status, prompt, gpt="gpt-4") => {
     const chatCompletion = await openai.createChatCompletion({
-        model: gpt, // "gpt-4", //"gpt-3.5-turbo",
+        model: gpt,
         temperature:0.68,
         messages: [{role: "system", content: prompt},{role: "user", content: status}],
     });
